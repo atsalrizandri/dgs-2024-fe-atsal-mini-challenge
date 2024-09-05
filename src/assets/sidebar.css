@@ -1,0 +1,38 @@
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-right: 1px solid #e5e9f2;
+  }
+  
+  .wallets, .categories {
+    margin-bottom: 40px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    color: #7b7f85;
+    margin-bottom: 10px;
+  }
+  
+  li span {
+    font-weight: bold;
+    color: #4a56e2;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e9f2;
+    font-size: 16px;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
